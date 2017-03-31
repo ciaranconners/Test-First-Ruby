@@ -64,9 +64,3 @@ def ctof(celsius)
   fahrenheit = (celsius * 1.8) + 32
   fahrenheit
 end
-
-
-# this is working now, I think, but not passing the tests for some reason
-
-
-puts Temperature.from_celsius(50).in_celsius == 50
